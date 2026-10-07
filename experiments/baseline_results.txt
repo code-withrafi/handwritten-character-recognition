@@ -1,0 +1,12 @@
+Experiment: Non-Neural Baseline
+
+Model: Logistic Regression
+Features: Raw MNIST pixels
+Input size: 784
+Training samples: 55,000
+Test samples: 10,000
+Test accuracy: 92.37%
+
+Note:
+The model produced a convergence warning after 100 iterations.
+The result is retained as the initial baseline experiment.
