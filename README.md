@@ -170,6 +170,6 @@ Current test status:
 - The best tested model achieved **98.94% test accuracy**.
 - The Simple CNN achieved approximately **1,502 images/second** during CPU inference.
 
-## License
+## Author And License
 
 Copyright (c) 2026 Iftekhar Ibne Masud Rafi
