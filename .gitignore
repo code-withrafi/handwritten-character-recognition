@@ -19,10 +19,6 @@ data/processed/
 *.pth
 *.ckpt
 
-# Experiment outputs
-results/figures/
-results/predictions/
-
 # IDE
 .vscode/
 .idea/
