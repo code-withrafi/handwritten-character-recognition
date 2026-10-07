@@ -1,0 +1,8 @@
+Inference Benchmark
+
+Model: Simple CNN
+Device: cpu
+Test images: 10000
+Total inference time: 6.6572 seconds
+Average time per image: 0.6657 ms
+Images per second: 1502.13
