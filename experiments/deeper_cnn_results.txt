@@ -1,0 +1,29 @@
+Experiment: Deeper CNN
+
+Architecture:
+- Conv2D: 1 -> 16 channels
+- ReLU
+- MaxPool2D
+- Conv2D: 16 -> 32 channels
+- ReLU
+- MaxPool2D
+- Conv2D: 32 -> 64 channels
+- ReLU
+- MaxPool2D
+- Flatten
+- Linear: 576 -> 10
+
+Training Configuration:
+- Optimizer: Adam
+- Learning rate: 0.001
+- Batch size: 64
+- Epochs: 5
+
+Best Validation Accuracy: 98.80%
+Test Loss: 0.0349
+Test Accuracy: 98.94%
+
+Comparison:
+Simple CNN Test Accuracy: 98.46%
+Deeper CNN Test Accuracy: 98.94%
+Improvement: +0.48 percentage points
